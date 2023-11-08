@@ -1,0 +1,126 @@
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+    body {
+        background-color: rgb(212, 186, 236);
+        margin: 10px;
+    } #box-contain {
+        width: 400px;
+        margin: 0 auto;
+    } 
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+    body {
+        background-color: rgb(200, 215, 237);
+        margin: 5px;
+    } #box-contain {
+        width: 400px;
+        margin: 0 auto;
+    } 
+
+}
+
+body {
+    width: 750px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.ejercicio1 {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    justify-content: center;
+    padding: 20px 8px 8px 8px;
+
+}
+div{
+    display: block;
+    padding: 0  100px   0   100px;
+    margin: 0 auto;
+}
+
+img{
+    float: left;
+    margin: 10px;
+}
+
+#html5 {
+    width: 150px;
+    height: 150px;
+}
+
+#css3 {
+    width: 120px;
+    height: auto;
+}
+article {
+    text-align: justify;
+}
+
+#table{
+    width: 800px;
+    height: 600px;
+    background-image: url(/img/woodbg.jpg);
+    top: 30px;
+    padding-top: 5px;
+}
+table {
+    width: 500px;
+    height: 200px;
+    background-image: url(/img/woodbg.jpg) ;
+    font-family: 'Times New Roman', Times, serif;
+   margin: auto;
+   padding: auto;
+   border-spacing: 0;
+}
+
+th{
+    text-align: center;
+    background-color: aquamarine;
+
+}
+h2.exer2{
+    font-size: 40px;
+    text-align: center;
+}
+
+th#colors{background-color: green;
+padding-top:0;}
+.black{background-color: black;}
+.teal{background-color: teal;}
+.blue{background-color: blue;}
+.navy{background-color: navy;}
+.lime{background-color: lime;}
+.white{background-color: white;}
+.purple{background-color: purple;}
+.yellow{background-color: yellow;}
+.olive{background-color: olive;}
+.red{background-color: red;}
+.gray{background-color: gray;}
+.fuchsia{background-color: fuchsia;}
+.green{background-color: green;}
+
+.colortext{
+    font-size: 40px;
+    text-align: center;
+}
+.black2 {color: black;}
+.teal2 {color: teal;}
+.blue2 {color: blue;}
+.navy2 {color: navy;}
+.lime2 {color: lime;}
+.white2 {color: white;}
+.purple2 {color: purple;}
+.yellow2 {color: yellow;}
+.olive2 {color: olive;}
+.red2 {color: red;}
+.gray2 {color: gray;}
+.fuchsia2 {color: fuchsia;}
+.green2 {color: green;}
+.marron2 {color: rgb(52, 11, 11);}
+.aqua2 {color: aqua;}
+.silver2 {color: silver;}
