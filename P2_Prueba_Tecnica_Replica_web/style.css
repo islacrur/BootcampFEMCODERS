@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open sans', sans serif;
+    color: #333333;
 }
 
 .content{
@@ -12,6 +13,7 @@
     display: flex; 
     flex: inline;
     justify-content: space-between;
+    position: block;
 }
 
 .content__logo {
@@ -19,34 +21,105 @@
 }
 
 .content__navbar {
-    width: 400px;
-    font-size: 0.6rem;
+    width: 800px;
+    font-size: 14px;
 }
   
-.content__switch{
-    font-size: 2rem;
-    padding-right: 40px;
-}
 .content__navbar .menu__link {
-    width: 400px;
     text-decoration: none;
     color: #333333;
     text-transform: uppercase;
     font-weight: 700;
+    margin-left: 2%;
 }
 .content__navbar  .menu__link:hover {
     color: #FF556E;
     font-weight: 700;
 }
 
-.content__navbar__button-dl{
-    border: 50px #FF556E;
-    align-items: end;
-    padding: 4px 20px;
+.content__navbar__button {
+    border-radius: 50px;
+    height: 20px;
+    width: 90px;
+    padding-top: -2;
+    border:  solid 1.5px #FF556E;
+    background-color: white;
+    text-align: center;
+}
+
+.content__navbar__button a{
     text-transform: uppercase;
     text-decoration: none;
     color: #FF556E;
     font-weight: 700;
-    border-color: #FF556E;
-    font-size: 0.6rem;
+    align-items: center;
+    padding:0;
+}
+main{
+    position: relative;
+    padding: 40px;
+    margin: 0 30px 40px 0;
+    overflow: hidden;
+}
+
+main h1{
+    text-align: center;
+    font-size: 64px;
+    color: #333333;
+}
+
+main .p-heading {
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 0;
+
+}
+
+.main__downloads{
+    display: flex;
+    margin-top: 3px;
+    justify-content: center;
+}
+
+.main__downloads__button {
+    border-radius: 50px;
+    height: 35px;
+    width: 135px;
+    border: none;
+    background-color: #FF556E;
+    text-align: center;
+    margin: 5px;
+}
+
+.main__downloads__button a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+}
+.main__image img{
+    align-items: center;
+    width: 70vw;
+    margin: 40px;
+}
+
+.main__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__row__box-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #aa7eec;
+    
+}
+
+.main__row__box-text {
+    font-size: 18px;
+    font-weight: 700;
 }
