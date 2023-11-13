@@ -1,14 +1,86 @@
-ul {
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
+
+/*RESET*/
+
+* {
+    margin:0;
     padding: 0;
+    font-family: "Open sans", sans-serif;
+    font-weight: 700;
 }
 
-li {
-    display: inline;
+/*HEADER*/
+header {
+    height: 30px;
+    padding: 30px;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a {
+header .nav-logo {
+    width: 100px;
+    padding-left: 20px;
+}
+
+.menu a {
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333333;
+    transition: 0.3s;
+    padding: 0 10px;
 }
+
+.show-menu, .hide-menu {
+    font-size: 20px;
+    display: none;
+    transition: 0.3s;
+}
+
+.menu a:hover, 
+.show-menu:hover,
+.hide-menu:hover {
+    color: #FF556E;
+}
+
+.show-menu {
+    order:1;
+}
+
+ #check {
+    display: none;
+}
+
+/*RESPONSIVE*/
+@media(max-width: 768px){
+    /*HEADER*/
+    .show-menu,
+    .hide-menu {
+        display: block;
+    }
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh; 
+        transition: 0.8s;
+        background-color: #FF556E;
+        text-align: center;
+        padding: 100px 0;
+        z-index: 100;
+    }
+    .menu a {
+        display: block;
+        padding: 20px;
+    }
+
+    .hide-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+}
+**************/
