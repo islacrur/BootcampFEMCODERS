@@ -1,1 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+}
 
+@media screen and (min-width: 480px){
+    body{
+        background-color: rgb(2, 26, 18);
+    }
+}
+@media screen and (min-width: 767px){
+    body{
+        background-color: rgb(5, 44, 31);
+    }
+}
+@media screen and (min-width: 950px){
+    body{
+        background-color: rgb(23, 168, 119);
+    }
+}
+
+.calculator--keys{
+    display: grid;
+    grid-template-columns: 4;
+    grid-row: 3;
+}
