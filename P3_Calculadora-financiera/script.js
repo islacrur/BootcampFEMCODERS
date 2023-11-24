@@ -1,15 +1,39 @@
-const calculator = document.querySelector('.calculator');
-const keys = calculator.querySelector('.calc__keys');
+const pantalla = document.querySelector(".pantalla");
+const botones = document.querySelectorAll(".btn");
 
-keys.addEventListener('click', e => {
-    if(e.target.matches('button')) {
-        //Do something
-    }
-})
+botones.forEach(boton => {
+    boton.addEventListener("click", () =>{
+        const botonApretado = boton.textContent;
 
-const key = e.target;
-const action = key.dataset.action;
+        if(boton.id === "c") {
+            pantalla.textContent = "0";
+            return;
+        }
 
-if(!action) {
-    console.log("number key!");
-}
+        if(boton.id === "borrar") {
+            if(pantalla.textContent.length === 1 || pantalla.textContent === "Error") {
+                pantalla.textContent = "0";
+                return;
+            } else {
+                pantalla.textContent = pantalla.textContent.slice(0,-1);
+            } 
+            return;
+        }
+
+        if(boton.id === "igual") {
+            try {
+                pantalla.textContent = eval(pantalla.textContent);
+            } catch {
+                pantalla.textContent = "Error"; 
+            }
+            return;
+        }
+
+        if(pantalla.textContent === "0") {
+            pantalla.textContent = botonApretado;
+        } else {
+        pantalla.textContent += botonApretado;
+        }  
+    })
+    
+});
