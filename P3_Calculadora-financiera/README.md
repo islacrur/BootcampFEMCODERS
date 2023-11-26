@@ -26,7 +26,19 @@
     2. Clone this repository: https://github.com/islacrur/BootcampFEMCODERS/P3_Calculadora-financiera
     3. Open your local directory cloned in your VS Code.
     4. Et voilà!
+
+##  Userflow and workflow
+
+A user flow is a chart showing the path a user will take in an application to complete a task.
+
+![Userflow](/P3_Calculadora-financiera/imgREADME/CalculatorUserflow%20.png)
+
+
+A workflow is a system for managing repetitive processes and tasks which occur in a particular order. 
+
+![Workflow](/P3_Calculadora-financiera/imgREADME/CalculatorWorkflow.png)
+
+
 ## 🦹🏻‍♀️ Authors
 
 - [@islacrur](https://www.github.com/islacrur)
-
