@@ -26,7 +26,7 @@ body{
 }
 .pantalla{
    grid-column: 1/ -1 ;
-   background-color:rgb(67, 113, 113); 
+   background-color:rgb(92, 151, 151); 
    padding: 1.5rem;
    font-size: 2rem;
    text-align: right;
@@ -41,8 +41,9 @@ body{
    color: rgb(255, 255, 255);
    box-shadow: 0.2rem 0.2rem rgb(235, 114, 15);
    border: 0;
-   border-radius: 1em;
-   padding: 1.5rem .5rem;
+   border-radius: 0.5em;
+   padding: 1.2rem;
+   font-size: 1.5em;
    display: flex;
    justify-content: center;
    align-items: center;
