@@ -1,0 +1,18 @@
+{
+  "name": "testing_jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FizzBuzz.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "testing_jest"
+  },
+  "author": "Isla",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
