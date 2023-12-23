@@ -1,0 +1,31 @@
+# CONCEPTOS BÁSICOS:
+
+## 1. ¿Qué es la programación y cuál es su propósito?
+- **Definición:** La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora cómo realizar una tarea específica.
+- **Propósito:** Automatizar tareas, resolver problemas y procesar información de manera eficiente.
+
+## 2. Define algoritmo y da un ejemplo.
+- **Algoritmo:** Un conjunto de pasos o reglas definidas para realizar una tarea o resolver un problema.
+- **Ejemplo:** Algoritmo para hacer una taza de té: 
+   1. Hervir agua.
+   2. Colocar la bolsa de té en la taza.
+   3. Verter agua caliente en la taza.
+   4. Dejar reposar por unos minutos.
+   5. Retirar la bolsa de té y disfrutar.
+
+## 3. ¿Qué es una variable y cómo se utiliza en programación?
+- **Definición:** Una variable es un contenedor que almacena datos que pueden cambiar durante la ejecución de un programa.
+- **Uso:** Se utiliza para almacenar y manipular información. Se declara usando `let`, `const` o `var` en JavaScript.
+
+## 4. Explica la diferencia entre JavaScript, HTML y CSS.
+- **JavaScript:** Lenguaje de programación que se ejecuta en el navegador y permite la interactividad en las páginas web.
+- **HTML:** Lenguaje de marcado que estructura el contenido de una página web.
+- **CSS:** Lenguaje de estilo que define la presentación y el diseño de una página web.
+
+# CONCEPTOS ESPECÍFICOS:
+
+## 5. Define variables en JavaScript y menciona los tipos de datos básicos.
+- **Variables en JavaScript:** 
+   ```javascript
+   let nombre = "John";
+   const edad = 25;
