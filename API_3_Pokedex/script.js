@@ -26,6 +26,15 @@ for (i=1; i<=150; i++) {
 }
 
 function showPoke(poke) {
+
+    let pokeId = poke.id.toString();
+        if(pokeId.length === 1) {
+            pokeId = "00" + pokeId;
+        }else if(pokeId.length === 2) {
+            pokeId = "0" + pokeId;
+        }
+    
+
     const createPokemonCard = document.createElement("div");
     createPokemonCard.classList.add("pokemon");
     createPokemonCard.innerHTML = 
@@ -33,7 +42,7 @@ function showPoke(poke) {
     <img src=${poke.sprites.other["official-artwork"].front_default} alt=${poke.name}>
     </div>
     <div class="info">
-      <span class="number">#${poke.id}</span>
+      <span class="number">#${pokeId}</span>
       <h3 class="name">${poke.name}</h3>
       <small class="type">Type: <span>${poke.types[0].type.name}</span></small>
   </div>`;
