@@ -37,6 +37,7 @@ function showPoke(poke) {
 
     const createPokemonCard = document.createElement("div");
     createPokemonCard.classList.add("pokemon");
+    createPokemonCard.style.backgroundColor = colors[poke.types[0].type.name];
     createPokemonCard.innerHTML = 
     `<div class="img-container">
     <img src=${poke.sprites.other["official-artwork"].front_default} alt=${poke.name}>
